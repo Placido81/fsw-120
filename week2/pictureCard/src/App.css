@@ -1,0 +1,33 @@
+* {
+  margin:0;
+}
+.wrapper {
+  background-color: #0468BF;
+  color: #049DBF;
+  padding: 10%;
+  margin: 10%;
+  gap:35px;
+  line-height: 40px;
+  font-size: 30px;
+  border: 15px ridge #BFCDD9;
+
+
+}
+h1:first-letter {
+  color: #8697A6;
+}
+h1:first-line{
+  color: #BFCDD9;
+  
+}
+h1 {
+  margin-top: 10%;
+  stroke-linecap: square;
+  margin-bottom: 5px;
+  
+}
+p {
+  border-bottom: 3px solid #BFCDD9;
+  margin-top: 0%;
+  margin-bottom: 10px;
+}
