@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+* {
+  margin: 20px;
+  align-items: center;
+
+  
+}
+
+.box{
+  display:flex;
+  justify-content: space-evenly;
+  font-size:30px ;
+  border: 5px ridge #8C848B;
+  background-color: #344973;
+  color: #D0E5F2;
+  margin-bottom: 15px;
+  padding: 15px;
+
+}
+h1:first-letter{
+  color:#BF0404;
+}
+h1 {
+  font-size: 5em;
+  font-family: AstroSpace;
+  text-align: center;
+  color: #8697A6;
+  margin-bottom: 5%;
+  border-bottom: 5px groove #BFCDD9;
+}
+h3 {
+  gap: 10px;
+  color: #CFD984;
+
+}
+p {
+  padding: 15px;
+  display: flex;
+  color: #F25252;
+  font-size: 37px;
+}
+id:3{
+  gap:10px;
+  
+}
