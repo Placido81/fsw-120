@@ -22,7 +22,7 @@ class App extends React.Component {
         }}
 
         render(){
-            return (<div></div>) 
+            return (<div>Dice 1 = {this.state.roll1}</div>) 
         }
 
                

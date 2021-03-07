@@ -1,11 +1,12 @@
 import React from 'react' 
+
 import { default as data } from './data.json'
-import SuperHero from './SuperHero.js'
+
 
 
 function HeroList(){
     
-    const heroComponents = data.map(data => <SuperHero
+    const heroComponents = data.map(data => <HeroList
         name= {data.name}
         catchPhrase={data.catchPhrase}
         imageName={data.imageName}
@@ -13,9 +14,11 @@ function HeroList(){
         bgcolor={data.bgcolor}
         color={data.color}
         />)
+        console.log(HeroList)
+        
         return(
             <div>
-                {heroComponents}
+           {heroComponents}
             </div>
         )
     

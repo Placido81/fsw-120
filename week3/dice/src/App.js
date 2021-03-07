@@ -8,7 +8,7 @@ class App extends React.Component{
         return(
             <div className ='App'>
          <Dices />
-            <App />
+        
         
 
             </div>

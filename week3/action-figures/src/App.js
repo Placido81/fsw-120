@@ -1,19 +1,20 @@
 import React from 'react'
-import '../../dice/src/index.js'
-
-
-
-
+import HeroList from './HeroList.js'
+import Header from'./Header'
+import Appx from'./Appx.js'
+import './index.js'
 
 function App(){
-  return (
+  return(
+  
   <div>
      <Header />
      <HeroList />
-     <SuperHero />
-     <Appx />
+      <Appx />
      
   </div>
+  
   )
+ 
 }
 export default App

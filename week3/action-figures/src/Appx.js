@@ -1,15 +1,16 @@
 import React from 'react'
  
-class Appx extends React.Components {
+class Appx extends React.Component {
      constructor(){
          super()
          this.state = {
              name: ''
+             
          }
      }
      render(){
          return(
-             <div></div>
+             <div>{this.state.name}</div>
          )
      }
              
