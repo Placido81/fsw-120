@@ -1,33 +1,37 @@
 import React, {Component} from 'react'
-
-
-
+import Roll from './Roll.js'
 
 class App extends React.Component {
           
-    constructor(){
-         super()
-       this.state = {
+    constructor() {
+        super()
+        this.state = {
+            number: 0,
+            border: '',
+            history: [],
+        } 
+        this.handleClick = this.handleClick.bind(this)
+    }
 
-            roll1: 0,
+    handleClick() {
+        const random = Math.round(1 + Math.random() * 5);
+        let hist = this.state.history
+        hist.push(random)
+        this.setState({number: random})
+        this.setState({border: random + 'px solid red' })
+    }
 
-            roll2: 0,
+    renderHistory() {
 
-            roll3: 0,
+    }
 
-            roll4: 0,
-
-            roll5: 0
-
-        }}
-
-        render(){
-            return (<div>Dice 1 = {this.state.roll1}</div>) 
-        }
-
-               
-
-  
-          
-}
+    render() {
+        return(<div>
+            <h1 style={{border:this.state.border}}>{this.state.number}</h1>
+            <button onClick = {this.handleClick}>Roll Dice!</button>                     
+            
+        </div>)
+    }            
+}     
+    
 export default App
