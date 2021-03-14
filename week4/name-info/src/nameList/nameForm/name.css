@@ -1,0 +1,14 @@
+.input-box {
+  margin-right: 20px;
+  font-size: 30px;
+  background-color: mediumturquoise;
+  padding: 10px;
+}
+
+.submit-button {
+  font-size: 30px;
+  background-color: gold;
+  color: red;
+  margin: 10px;
+  padding: 5px;
+}
