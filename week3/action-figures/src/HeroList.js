@@ -1,12 +1,13 @@
 import React from 'react' 
+import {default as data} from './info.json'
+import HeroCard from './HeroCard'
 
 
 
 
-
-function HeroList(props){
+function HeroList(){
     
-    {/*const heroComponents = data.map(data => <HeroList
+    const heroComponents = data.map(data => <HeroCard
         name= {data.name}
         catchPhrase={data.catchPhrase}
         imageName={data.imageName}
@@ -14,11 +15,11 @@ function HeroList(props){
         bgcolor={data.bgcolor}
         color={data.color}
         />)
-    console.log(HeroList)*/}
+    
         
         return(
             <div>
-           <h1>{props.name}</h1>
+           {heroComponents}
             </div>
         )
     
