@@ -1,7 +1,7 @@
-import React from'react'
+import React from 'react';
+
 import './App.css';
 
-const hiSound = false;
 
 class App extends React.Component{
   constructor() {
@@ -63,11 +63,22 @@ class App extends React.Component{
       <div>
       <br />
       <div className= "tiles">
-      <div className="tile" style={{backgroundColor:this.state.colors[0]}}>Lets</div>
-      <div className="tile" style={{backgroundColor:this.state.colors[1]}}>Boogy</div>
-      <div className="tile" style={{backgroundColor:this.state.colors[2]}}>Tonight</div>
-      <div className="tile" style={{backgroundColor:this.state.colors[3]}}>Baby</div>
+      <div className="tile" style={{backgroundColor:this.state.colors[1]}}>Lets</div>
+      <div className="tile" style={{backgroundColor:this.state.colors[2]}}>Boogy</div>
+      <div className="tile" style={{backgroundColor:this.state.colors[1]}}>Tonight</div>
+      <div className="tile" style={{backgroundColor:this.state.colors[2]}}>Baby</div>
+      <div className="tile" style={{backgroundColor:this.state.colors[1]}}>Cool</div>
+      <div className="tile" style={{backgroundColor:this.state.colors[2]}}>Happy</div>
+      <div className="tile" style={{backgroundColor:this.state.colors[1]}}>Gangsta</div>
+      <div className="tile" style={{backgroundColor:this.state.colors[2]}}>Free</div>
+      <div className="tile" style={{backgroundColor:this.state.colors[1]}}>Ice</div>
+      <div className="tile" style={{backgroundColor:this.state.colors[2]}}>Pig</div>
+      
+      
+      
+     
      </div>
+    
 
      <br />
 
@@ -94,4 +105,9 @@ class App extends React.Component{
   }
 }
 
+
+
+
 export default App;
+
+
