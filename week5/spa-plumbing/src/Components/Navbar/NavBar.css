@@ -1,0 +1,56 @@
+.nav{
+    display:grid;
+    grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 70px auto 70px; 
+  column-gap: 10px;
+  font-size: 25px;
+ background-color: #1F0954 ;
+  font-family: 	Hoefler Text;
+  
+}
+#home:hover{
+  color:#FCFC81;
+  text-align: center; 
+   
+
+}
+#home{
+  color: #FDFDFE;
+  text-decoration: none;
+  text-align: center; 
+  padding-left: 10%; 
+  margin-left: 15em;
+  padding-top: 25px;
+  
+  width:85px;
+  height: 40px;
+   
+  
+}
+#about:hover{
+ color: #FCFC81;
+
+}
+#about{
+  color: #FDFDFE;
+  text-decoration: none;
+   padding-left: 20em; 
+   padding-top: 25px;
+   
+   
+   
+  
+}
+#service:hover{
+  color: #FCFC81;
+}
+#service{
+  color: #FDFDFE;
+  text-decoration: none;
+  margin-left: 35%;
+  text-align: center; 
+  padding-left: 25em; 
+  padding-top: 25px;
+  
+  
+}

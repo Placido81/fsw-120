@@ -1,0 +1,35 @@
+.serv{
+    background-color: #95A3A6;
+  padding: 50px;
+  padding-top: 20px;
+  margin-top: 15px;
+  
+  text-align: center;
+    
+}
+h2{
+    font-size: 50px;
+    display: grid;
+    color: #1F0954;
+}
+h3{
+    font-size: 40px;
+    text-decoration: underline;
+    color:#FFFF7E;
+}
+li:hover{
+   background-color: #FFFF7E;
+}
+li{
+    font-size: 30px;
+    list-style: none;
+    line-height: 40px;
+    color:#BB3F3F;
+}
+
+h4{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 10%;
+    color:#FFFF7E;
+}
