@@ -2,29 +2,31 @@
     display: grid;
     grid-template-columns: repeat(1,1fr);
     background-color: #95A3A6;
-    height: 700px;
-    margin-top: 2%;
+    height: 800px;
+    
+    
     align-items: center;
 
 }    
 
 .bio{
-font-size: 25px;
-text-align: center;
-display: flex grid;
+font-size: 20px;
+display: grid;
 color: #FDFDFE;
-margin: 20px;
-padding: auto;
+margin-bottom: 40%;
+margin-left:27%;
 font-family: 'Teko', sans-serif;
-line-height: 40px;
-letter-spacing: 0px;
+width: 50%;
+
+
 }
 
 img {
     border: 5px solid #1F0954;;
     width: 700px;
     height:300px;
-    margin-left: 25%;
+    margin-left: 30%;
+    
     box-shadow:  6px 6px 16px #cecece,
              -6px -6px 16px #f2f2f2;
     
