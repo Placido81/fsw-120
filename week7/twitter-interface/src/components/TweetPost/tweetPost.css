@@ -4,7 +4,7 @@
     
 }
 
-.userName {
+input.userName {
     
     padding: 1%;
     margin-bottom: 1%;
@@ -22,19 +22,20 @@ input.atName {
     padding: 10%;
 
 
-    background-color:#4169E1;
+    background-color:#1DA1F2;
 }
 ​
 .textBox {
     font-size: 17px;
     padding: 1%;
     margin-bottom: 2%;
-    color:dodgerblue;
+    color:#1DA1F2;
     background-color: lightblue;
     
 }
 #tweetArea{
     background-color: #DCDCDC;
+    border-top: 1px  ridge #1DA1F2;
 
     
 }

@@ -3,7 +3,8 @@
     background-color: darkgrey;
     padding-top: 10px;
     padding-bottom: 20px;
-    border-top: 7px double rgb(0,191,255);
+    border-top: 4px solid #1DA1F2;
+    border-bottom: 2px solid rgb(255,250,205);
     
 }
 ​
@@ -25,7 +26,7 @@
 }
   
 .tweetBody:hover { 
-    background-color: #87CEFA;
+    background-color: RGB(29,161,242);
     
     color: whitesmoke;
     border: #ffffff 10px solid;
@@ -49,7 +50,7 @@
     color: firebrick;
 }
   .handle:hover{
-      color:yellow;
+      color:rgb(255,250,205);
   }
 .handle {
     margin-left: 5%;
@@ -71,13 +72,13 @@ textrea.text.Box{
     height: 25%;
     font-family: HelveticaNeue;
     font-size: 18px;
-    color: grey;
+    color: #A4AAB4;
     padding-bottom: 5%;
 } 
 ​
 button.tweetButton:hover {
     
-    color:dodgerblue;
+    color:RGB(29,161,242);
     font-size: 16px;
     padding: 12px;
     border-radius: 50%;

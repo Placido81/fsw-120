@@ -1,15 +1,16 @@
 div.loginContainer {
     text-align: center;
     font-size: 50px;
-    color: dodgerblue;
-    padding: 50px;
+    padding: 40px;
+    
+    
     
     
 }
 ​
-input.loginBox {
+input {
     font-size: 50px;    
-    border: 3px solid dodgerblue;
+color:#1DA1F2;
     padding: 50px;
     
 }
@@ -17,19 +18,19 @@ input.loginBox {
 
 
 ​
-button.loginButton:focused {
+button.Button {
     margin-top: 25px;
+    padding: 5%;
     
-    
-    background-color: dodgerblue;
-    font-size: 15px;
+    color: dodgerblue;
+    font-size: 45px;
     border-radius: 30px;
-    border: none;
+    
     font-size: 50px;
     
 }
 ​
-button.loginButton:hover {
+Button:hover {
     background-color: rgb(135, 196, 250);
     
    

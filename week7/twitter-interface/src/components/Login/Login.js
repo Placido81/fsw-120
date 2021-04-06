@@ -25,7 +25,7 @@ console.log(userToken)
         </div>
       <form onSubmit={handleSubmit}>
         <input 
-          className='loginBox'
+          className='logBox'
           type='text'
           name='userName'
           placeholder='Username'
@@ -42,7 +42,7 @@ console.log(userToken)
           onChange={(e) => setPassword(e.target.value)}
         />
         <br/>
-        <Link to="/tweets"><button className='loginButton'> Log in </button> </Link>
+        <Link to="/tweets"><button className='Button'> Log in </button> </Link>
       </form>
     </div>
   );

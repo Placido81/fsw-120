@@ -3,10 +3,10 @@
     padding: 0;
 }
 .footer-container {
-    background-color: #B0C4DE;
+    background: linear-gradient(to right, #56ccf2, #1E7EEA);
     border-top: 3px solid firebrick;
     
-    color:firebrick;
+    color:rgb(255,250,205);
     
     font-variant: small-caps;
     text-align: center;
@@ -23,7 +23,7 @@ img.footerimg {
     height: 50px;
     margin-right: 100vh;
     border-radius: 50%; 
-    background-color:rgb(135, 196, 250);
+    background-color:#9CB4CE;
     padding: 5px;
     display: inline-block; margin: 0 10px
     
