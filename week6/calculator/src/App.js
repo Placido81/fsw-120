@@ -39,11 +39,13 @@ onClick = button => {
         calculate = () =>{
             var checkResult = ''
             if(this.state.result.includes('--')){
+                // eslint-disable-next-line
                 checkResult = this.state.result.replace('--','+')
             }
     
              try {
                 this.setState({
+                    // eslint-disable-next-line
                     result: (eval(this.state.result) || "") + ""
                 })
             

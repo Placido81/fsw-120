@@ -1,0 +1,92 @@
+.tweetContainer {
+    
+    background-color: darkgrey;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-top: 7px double rgb(0,191,255);
+    
+}
+​
+.innerBody {
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+}
+  
+.tweetBody {
+    width: 70%;
+    height: 25%;
+    background-color: #DCDCDC;
+    margin-left: 15%;
+    
+    margin-top: 0.5rem; 
+    border: 5px solid rgb(119,136,153) ;
+    
+}
+  
+.tweetBody:hover { 
+    background-color: #87CEFA;
+    
+    color: whitesmoke;
+    border: #ffffff 10px solid;
+    margin-top: 2%;
+}
+  
+.picture {
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+  
+.name {
+    display: flex;
+    margin-left: 2%;
+    margin-top: 2%;
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    color: firebrick;
+}
+  .handle:hover{
+      color:yellow;
+  }
+.handle {
+    margin-left: 5%;
+    margin-top: 0%;
+    text-decoration: underline;
+    height: 25%;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    color: grey;
+}
+textrea.text.Box{
+    color: red;
+}
+  
+.tweet {
+    margin-left: 10%;
+    margin-top: 2%;
+    width: 90%;
+    height: 25%;
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    color: grey;
+    padding-bottom: 5%;
+} 
+​
+button.tweetButton:hover {
+    
+    color:dodgerblue;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 50%;
+    border: none;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+​
+​
+.buttonContaine{
+    display: inline;
+}

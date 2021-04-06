@@ -1,0 +1,40 @@
+.twitterContainer{
+    padding: 0%;
+    margin:0%;
+    
+}
+
+.userName {
+    
+    padding: 1%;
+    margin-bottom: 1%;
+    border: none;
+    background-color: rgb(169,169,169);
+    color: whitesmoke;
+    
+    margin-right: 1%;
+}
+​
+input.atName {
+    
+    color: lightblue;
+    margin-bottom: 1%;
+    padding: 10%;
+
+
+    background-color:#4169E1;
+}
+​
+.textBox {
+    font-size: 17px;
+    padding: 1%;
+    margin-bottom: 2%;
+    color:dodgerblue;
+    background-color: lightblue;
+    
+}
+#tweetArea{
+    background-color: #DCDCDC;
+
+    
+}

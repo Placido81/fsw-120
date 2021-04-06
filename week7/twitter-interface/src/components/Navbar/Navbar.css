@@ -1,0 +1,36 @@
+.navbarContainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3%;
+    font-size: 20px;
+    background: linear-gradient(to right, #56ccf2, #2f80ed);
+    border-bottom:  8px double  firebrick;
+}
+​
+.link {
+
+    color: whitesmoke;
+    
+    padding: 20px;
+    
+    text-decoration: none;
+}
+.link:hover{
+    background-color: firebrick;
+    border-radius: 25% 15%;
+    padding: 0.5%;
+}
+
+.link:visited{
+    color: whitesmoke;
+   
+    padding: 20px;
+    
+    text-decoration: none;
+}
+p{
+    color: rgb(255,250,205);
+    text-decoration: underline;
+    text-decoration-color: rgb(255,250,205);
+    
+}

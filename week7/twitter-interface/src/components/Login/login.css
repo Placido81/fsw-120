@@ -1,0 +1,36 @@
+div.loginContainer {
+    text-align: center;
+    font-size: 50px;
+    color: dodgerblue;
+    padding: 50px;
+    
+    
+}
+​
+input.loginBox {
+    font-size: 50px;    
+    border: 3px solid dodgerblue;
+    padding: 50px;
+    
+}
+​
+
+
+​
+button.loginButton:focused {
+    margin-top: 25px;
+    
+    
+    background-color: dodgerblue;
+    font-size: 15px;
+    border-radius: 30px;
+    border: none;
+    font-size: 50px;
+    
+}
+​
+button.loginButton:hover {
+    background-color: rgb(135, 196, 250);
+    
+   
+}

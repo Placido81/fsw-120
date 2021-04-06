@@ -1,0 +1,23 @@
+.submit-edit {
+    font-size: 20px;
+    padding: 50px;
+      
+}
+
+​
+input.atName {
+    font-size: 14px;
+    padding: 10px;
+    color:lightblue;
+    
+}
+​
+.edit-box {
+    font-size: 14px;
+    padding: 10px;
+    color:grey;
+    border: 2px solid dodgerblue;
+}
+
+
+
